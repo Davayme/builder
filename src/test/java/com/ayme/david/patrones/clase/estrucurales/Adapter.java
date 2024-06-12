@@ -1,14 +1,12 @@
-package com.ayme.david.patrones.clase.creacionales;
+package com.ayme.david.patrones.clase.estrucurales;
 
 import org.junit.Test;
 
 import com.ayme.david.patrones.crecionales.clase.creacionales.abstract_factory.AppleStoreFactory;
 import com.ayme.david.patrones.crecionales.clase.creacionales.abstract_factory.DellStoreFactory;
 import com.ayme.david.patrones.crecionales.clase.creacionales.abstract_factory.IComputadora;
-import com.ayme.david.patrones.crecionales.clase.creacionales.factory_method.Pastel;
-import com.ayme.david.patrones.crecionales.clase.creacionales.factory_method.PasteleriaDA;
 
-public class Abstract_Factory {
+public class Adapter {
     @Test
     public void Test1() {
         AppleStoreFactory appleStoreFactory = new AppleStoreFactory();

@@ -4,8 +4,8 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import com.ayme.david.patrones.crecionales.clase.simple_factory.Pizza;
-import com.ayme.david.patrones.crecionales.clase.simple_factory.Pizzeria;
+import com.ayme.david.patrones.crecionales.clase.creacionales.simple_factory.Pizza;
+import com.ayme.david.patrones.crecionales.clase.creacionales.simple_factory.Pizzeria;
 
 public class SimpleFactoryTest {
 
