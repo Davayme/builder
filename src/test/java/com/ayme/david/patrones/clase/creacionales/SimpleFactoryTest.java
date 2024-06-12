@@ -1,4 +1,4 @@
-package com.ayme.david.patrones.clase;
+package com.ayme.david.patrones.clase.creacionales;
 
 import static org.junit.Assert.assertTrue;
 
