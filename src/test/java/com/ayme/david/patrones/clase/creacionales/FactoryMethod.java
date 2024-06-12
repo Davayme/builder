@@ -1,7 +1,5 @@
 package com.ayme.david.patrones.clase.creacionales;
 
-import static org.junit.Assert.assertTrue;
-
 import org.junit.Test;
 
 import com.ayme.david.patrones.clase.creacionales.factory_method.Pastel;
