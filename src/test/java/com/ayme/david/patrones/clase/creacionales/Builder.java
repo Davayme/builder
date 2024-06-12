@@ -2,9 +2,9 @@ package com.ayme.david.patrones.clase.creacionales;
 
 import org.junit.Test;
 
-import com.ayme.david.patrones.crecionales.clase.creacionales.builder.MetodoPago;
-import com.ayme.david.patrones.crecionales.clase.creacionales.builder.User;
-import com.ayme.david.patrones.crecionales.clase.creacionales.builder.Usuario;
+import com.ayme.david.patrones.clase.creacionales.builder.MetodoPago;
+import com.ayme.david.patrones.clase.creacionales.builder.User;
+import com.ayme.david.patrones.clase.creacionales.builder.Usuario;
 
 public class Builder {
 	@Test

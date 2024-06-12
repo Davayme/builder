@@ -2,9 +2,9 @@ package com.ayme.david.patrones.clase.estructurales;
 
 import org.junit.Test;
 
-import com.ayme.david.patrones.crecionales.clase.estructurales.adapter.AdaptadorBD;
-import com.ayme.david.patrones.crecionales.clase.estructurales.adapter.ConexionMongo;
-import com.ayme.david.patrones.crecionales.clase.estructurales.adapter.IConexionBD;
+import com.ayme.david.patrones.clase.estructurales.adapter.AdaptadorBD;
+import com.ayme.david.patrones.clase.estructurales.adapter.ConexionMongo;
+import com.ayme.david.patrones.clase.estructurales.adapter.IConexionBD;
 
 public class Adapter {
     @Test
