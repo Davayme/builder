@@ -81,9 +81,9 @@ public class Car {
 
         // Ejemplo sin modelo, lo que debería lanzar una excepción o no permitir el seteo de otras propiedades
         try {
-            Car carError = Car.crearCar("Honda")
+            /* Car carError = Car.crearCar("Honda")
                     .setYear(2022)  // Error: no se puede establecer año sin modelo
-                    .build();
+                    .build(); */
         } catch (IllegalStateException e) {
             System.out.println("Error: " + e.getMessage());
         }
