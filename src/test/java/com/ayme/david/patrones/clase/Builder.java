@@ -2,9 +2,9 @@ package com.ayme.david.patrones.clase;
 
 import org.junit.Test;
 
-import com.ayme.david.patrones.clase.builder.MetodoPago;
-import com.ayme.david.patrones.clase.builder.User;
-import com.ayme.david.patrones.clase.builder.Usuario;
+import com.ayme.david.patrones.crecionales.clase.builder.MetodoPago;
+import com.ayme.david.patrones.crecionales.clase.builder.User;
+import com.ayme.david.patrones.crecionales.clase.builder.Usuario;
 
 public class Builder {
 	@Test

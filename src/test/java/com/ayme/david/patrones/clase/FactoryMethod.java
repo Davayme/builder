@@ -4,8 +4,8 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import com.ayme.david.patrones.clase.factory_method.Pastel;
-import com.ayme.david.patrones.clase.factory_method.PasteleriaDA;
+import com.ayme.david.patrones.crecionales.clase.factory_method.Pastel;
+import com.ayme.david.patrones.crecionales.clase.factory_method.PasteleriaDA;
 
 public class FactoryMethod {
     @Test

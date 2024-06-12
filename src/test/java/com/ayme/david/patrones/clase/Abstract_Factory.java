@@ -2,11 +2,11 @@ package com.ayme.david.patrones.clase;
 
 import org.junit.Test;
 
-import com.ayme.david.patrones.clase.abstract_factory.AppleStoreFactory;
-import com.ayme.david.patrones.clase.abstract_factory.DellStoreFactory;
-import com.ayme.david.patrones.clase.abstract_factory.IComputadora;
-import com.ayme.david.patrones.clase.factory_method.Pastel;
-import com.ayme.david.patrones.clase.factory_method.PasteleriaDA;
+import com.ayme.david.patrones.crecionales.clase.abstract_factory.AppleStoreFactory;
+import com.ayme.david.patrones.crecionales.clase.abstract_factory.DellStoreFactory;
+import com.ayme.david.patrones.crecionales.clase.abstract_factory.IComputadora;
+import com.ayme.david.patrones.crecionales.clase.factory_method.Pastel;
+import com.ayme.david.patrones.crecionales.clase.factory_method.PasteleriaDA;
 
 public class Abstract_Factory {
     @Test
