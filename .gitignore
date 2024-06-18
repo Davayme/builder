@@ -1,0 +1,56 @@
+# Compilado
+target/
+!target/classes/
+!target/test-classes/
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+.mvn/wrapper/MavenWrapperDownloader.java
+
+# IDE - VSCode
+.vscode/
+.history/
+.settings/
+.classpath
+.project
+.factorypath
+
+# Varios
+*.class
+*.log
+*.ctxt
+*.swp
+*.swo
+*.tmp
+*.bak
+*.swp
+*.swo
+.DS_Store
+*.iml
+.idea/
+*.sh
+*.bat
+*.cmd
+*.yaml
+*.yml
+*.json
+*.xml
+*.txt
+*.md
