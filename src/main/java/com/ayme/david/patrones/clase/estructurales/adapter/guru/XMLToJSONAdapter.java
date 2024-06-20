@@ -1,23 +1,25 @@
 package com.ayme.david.patrones.clase.estructurales.adapter.guru;
 
+public class XmlToJsonAdapter implements AnalysisLibrary {
+    private XmlDataProvider xmlDataProvider;
 
-// Adapter
-public class XMLToJSONAdapter implements JSONParser {
-    private XMLData xmlData;
-
-    public XMLToJSONAdapter(XMLData xmlData) {
-        this.xmlData = xmlData;
+    public XmlToJsonAdapter(XmlDataProvider xmlDataProvider) {
+        this.xmlDataProvider = xmlDataProvider;
     }
 
     @Override
-    public String parse() {
-        System.out.println("Transformando datos de XML a JSON...");
-        System.out.println("Datos XML recibidos: " + this.xmlData.getXMLData());
-        // Emulación de la conversión de XML a JSON
-        String jsonData = "{\"order\": {\"id\": \"123\", \"name\": \"John Doe\", \"amount\": \"100\"}}";
-        System.out.println("Datos JSON simulados: " + jsonData);
-        return jsonData;
+    public void analyzeData(String jsonData) {
+        // Convertir XML a JSON (simulado con un mensaje)
+        String xmlData = xmlDataProvider.getXmlData();
+        String convertedData = convertXmlToJson(xmlData);
+        System.out.println("Datos convertidos de XML a JSON: " + convertedData);
+        // Llamar al método de la biblioteca de análisis con los datos convertidos
+        JsonAnalysisLibrary jsonLibrary = new JsonAnalysisLibrary();
+        jsonLibrary.analyzeData(convertedData);
+    }
+
+    private String convertXmlToJson(String xmlData) {
+        // Simulación de conversión (en una implementación real, se debería parsear el XML)
+        return "{\"value\": 123}";
     }
 }
-
-
