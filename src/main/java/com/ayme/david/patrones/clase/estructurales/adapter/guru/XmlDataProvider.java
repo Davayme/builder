@@ -1,13 +1,13 @@
 package com.ayme.david.patrones.clase.estructurales.adapter.guru;
 
-public class XmlDataProvider {
-    private String XMLData;
-    
-    public XmlDataProvider(String xMLData) {
-        XMLData = xMLData;
+class XmlDataProvider {
+    private String xmlData;
+
+    public XmlDataProvider(String xmlData) {
+        this.xmlData = xmlData;
     }
 
     public String getXmlData() {
-        return this.XMLData;
+        return xmlData;
     }
 }

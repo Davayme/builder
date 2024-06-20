@@ -6,6 +6,6 @@ public class Main {
         AnalysisLibrary adapter = new XmlToJsonAdapter(xmlDataProvider);
 
         // Utilizar la biblioteca de análisis a través del adaptador
-        adapter.analyzeData("");
+        adapter.analyzeData();
     }
 }

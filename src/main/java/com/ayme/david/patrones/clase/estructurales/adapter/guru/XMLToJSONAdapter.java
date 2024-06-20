@@ -8,14 +8,14 @@ public class XmlToJsonAdapter implements AnalysisLibrary {
     }
 
     @Override
-    public void analyzeData(String jsonData) {
+    public void analyzeData() {
         // Convertir XML a JSON (simulado con un mensaje)
         String xmlData = xmlDataProvider.getXmlData();
         String convertedData = convertXmlToJson(xmlData);
         System.out.println("Datos convertidos de XML a JSON: " + convertedData);
         // Llamar al método de la biblioteca de análisis con los datos convertidos
-        JsonAnalysisLibrary jsonLibrary = new JsonAnalysisLibrary();
-        jsonLibrary.analyzeData(convertedData);
+        JsonAnalysisLibrary jsonLibrary = new JsonAnalysisLibrary(convertedData);
+        jsonLibrary.analyzeData();
     }
 
     private String convertXmlToJson(String xmlData) {
