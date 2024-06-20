@@ -8,7 +8,6 @@ public class XMLData {
     }
 
     public String getXMLData() {
-        return xmlData;
+        return this.xmlData;
     }
-
 }
